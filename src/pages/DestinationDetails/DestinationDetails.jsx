@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { data } from "../../db/data";
 
 const DestinationDetails = () => {
   const { continentID, countryID, destinationID } = useParams();
