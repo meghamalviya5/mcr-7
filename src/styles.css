@@ -1,0 +1,49 @@
+.container {
+  margin: 2rem 6rem;
+}
+
+.card {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.card-img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.name-display {
+  bottom: 0;
+  text-align: center;
+  height: max-content;
+}
+
+.text-white {
+  color: white;
+}
+
+.pl-s {
+  padding-left: 1rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-gap-4 {
+  gap: 2rem;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
