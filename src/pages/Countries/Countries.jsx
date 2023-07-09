@@ -16,7 +16,7 @@ const Countries = () => {
     <div>
       <div>
         <h2 className="header">
-          {`Top Countries in ${continent.name} for youe next holiday`}
+          {`Top Countries in ${continent.name} for your next holiday`}
         </h2>
         <div className="container flex flex-gap-4">
           {continent.countries.map(({ id, image, name }) => (
@@ -25,7 +25,7 @@ const Countries = () => {
               className="card relative text-white"
             >
               <img src={image} alt="continent" className="card-img" />
-              <div className="flex absolute name-display pl-s">
+              <div className="flex flex-gap-2 absolute name-display pl-s pb-m mt-b-auto">
                 <FontAwesomeIcon icon={faLocationDot} />
                 <h3 className="m-0">{name}</h3>
               </div>

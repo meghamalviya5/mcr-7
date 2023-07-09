@@ -20,7 +20,7 @@ const Destination = () => {
       <div>
         <div>
           <h2 className="header">
-            {`Top Destinations in ${country.name} for youe next holiday`}
+            {`Top Destinations in ${country.name} for your next holiday`}
           </h2>
           <div className="container flex flex-gap-4">
             {country.destinations.map(({ id, image, name }) => (
@@ -29,7 +29,7 @@ const Destination = () => {
                 className="card relative text-white"
               >
                 <img src={image} alt="destination" className="card-img" />
-                <div className="flex absolute name-display pl-s">
+                <div className="flex flex-gap-2 absolute name-display pl-s pb-m items-center">
                   <FontAwesomeIcon icon={faLocationDot} />
                   <h3 className="m-0">{name}</h3>
                 </div>
