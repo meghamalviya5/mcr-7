@@ -25,7 +25,7 @@ const Countries = () => {
               className="card relative text-white"
             >
               <img src={image} alt="continent" className="card-img" />
-              <div className="flex flex-gap-2 absolute name-display pl-s pb-m mt-b-auto">
+              <div className="flex flex-gap-2 absolute name-display pl-s pb-m items-center">
                 <FontAwesomeIcon icon={faLocationDot} />
                 <h3 className="m-0">{name}</h3>
               </div>
